@@ -1,57 +1,734 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Camerastore by miaohou</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Camerastore</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/miaohou/camerastore" class="btn">View on GitHub</a>
-      <a href="https://github.com/miaohou/camerastore/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/miaohou/camerastore/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="images/favicon.ico">
+<!-- //////CSS////// -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- //////字型////// -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<!-- Owl Carousel Assets -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/google-code-prettify/prettify.css" rel="stylesheet">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<!-- 自己的CSS -->
+	<link rel="stylesheet" href="css/style.css">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<!-- //////jq////// -->
+	<script src='js/jquery-2.2.3.min.js'></script>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<!-- Owl -->	
+    <script src="js/owl.carousel.js"></script>
+<!-- 自己的js -->
+	<script src='js/all.js'></script>
+</head>
+<body>
+<div class="topbar">
+	<div class="topbar_wrap">
+		<div class="topbarleft">
+			<div class="topbar_menulist">Language:
+				<a href="#">English<i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+				<ul class="list">
+					<li><a href="#">English</a></li>
+					<li><a href="#">Chinese</a></li>
+					<li><a href="#">French</a></li>
+				</ul>
+			</div>
+			<div class="topbar_menulist">Currency:
+				<a href="#">EUR<i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+				<ul class="list">
+					<li><a href="#">EUR</a></li>
+					<li><a href="#">USD</a></li>
+					<li><a href="#">NTD</a></li>
+				</ul>
+			</div>
+			<div class="topbar_menulist">Telephone: <span class="hightlight">+565 976 658</span></div>
+		</div>
+		<div class="topbarright">
+			<ul>
+				<li><a href="#">My Account</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Checkout</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>		
+	</div>
+</div>
+<div class="main">
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+	<div class="main_wrap">
+		<div class="gototopbn ">
+		<p>
+		<a href="#">top</p>
+		</a>
+	</div>
+	<div class="header">
+		<h1 class="logo"><a href="#">camera</a></h1>	
+		<div class="serch_icon icon_color">
+		    <input type="text" placeholder="Search...">
+			<a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-square fa-stack-2x square_color"></i>
+			  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+			</span></a>
+					<a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-square fa-stack-2x square_color"></i>
+			  <i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+			</span></a>
+			<a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-square fa-stack-2x square_color"></i>
+			  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+			</span></a>
+			<a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-square fa-stack-2x square_color"></i>
+			  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+			</span></a>
+			<a href="#"><span class="fa-stack fa-lg">
+			  <i class="fa fa-square fa-stack-2x square_color"></i>
+			  <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+			</span></a>			
+		</div>
+		<div class="clearfix"></div>
+	</div>
+		<div class="head_menu">
+		<div class="dot_line"></div>
+			<ul>
+				<li>
+				   <a href="#">HOME</a>
+				</li>
+				<li><a href="#">APPAREL</a></li>
+				<li><a href="#">FASHION</a></li>
+				<li><a href="#">NEWS</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+			
+			<div class="btn_items green">
+			<a href="#"><img src="images/btn_cart.png" alt=""><span>(0) ITEMS</span></a></div>
+		<div class="clearfix"></div>			
+		<div class="dot_line"></div>
+		</div>
+    <div class="main_banner">
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+	<div id="banner_change" class="owl-carousel owl-theme">
+	 
+	  <div class="item"><img src="images/main_pic_01.jpg" alt="The Last of us"></div>
+	  <div class="item"><img src="images/main_pic_02.jpg" alt="GTA V"></div>
+	  <div class="item"><img src="images/main_pic_01.jpg" alt="Mirror Edge"></div>
+	  <div class="item"><img src="images/main_pic_02.jpg" alt="GTA V"></div>	 
+	</div>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+    	<div class="main_banner_info">
+    		<h2>CHECK OUR <span>AMAZING OFFERS</span>, VISIT OUR <span>STORE</span> NOW    		
+    		 <input class="main_banner_info_btn green" type="button" value="VISIT THE STORE"></h2>
+  		 		
+    	</div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+    </div>
+<!-- 000000000000000000產品title00000000000000 -->
+    <div class="product_list">
+      <div class="product_list_line">
+      	<h3>RECENT PRODUCTS</h3>
+      	<div class="md_list dot_line"></div>
+      </div>
+<!-- 000000000000000000輪播小綠按鈕00000000000000 -->		
+		<ul>
+			<li>
+		 <div class="product_list_btn green customNavigation">
+		<a class="btn prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></div>
+		</li>
+			<li>
+		 <div class="product_list_btn green customNavigation">
+		<a class="btn next"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+			</li>
+		</ul>
+	  <div class="clearfix"></div>
+	</div>
+	<!-- 00000000000000resent產品倫波區0000000000 -->
+	<div id="owl-demo" class="owl-carousel owl-theme allproduct">
+	<!-- 00000000000000resent產品第1~40000000000 -->
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>		
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_01.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_02.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>			
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_03.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_04.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+	<!-- 00000000000000resent產品5~80000000000 -->
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>		
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_01.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_02.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>			
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_03.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_04.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+	<!-- 00000000000000resent產品9~12////0000000000 -->
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>		
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_01.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_02.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+			    <div class="sale_icon">sale</div>			
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_03.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+			<div class="product_shop">
+				<div class="product_shop_pic">
+					<img src="images/product_shop_pic_04.jpg" alt="">
+				</div>
+				<div class="product_price">
+					<span>$899.99</span>
+		    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+		    		<div class="clearfix"></div>
+				</div>
+		        <div class="product_price_info">
+		        	<h3>EOS 450D Camera</h3>
+		        	<p>Lorem ipsum dolor sit amet, conse  
+					adipiscing elit, sed diam nonu mmy  
+					mod tincidunt ut lao dolore.</p>
+		        </div>
+		        <a class="product_view" href="#">View the Product></a>		
+			</div>
+	</div><!-- allproduct -->
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<!-- 000000000000000000產品titl/////FEATURED00000000000000 -->
+    <div class="product_list">
+      <div class="product_list_line">
+      	<h3>FEATURED PRODUCTS</h3>
+      	<div class="md_list dot_line"></div>
+      </div>     
+		<ul>
+			<li>
+		 <div class="product_list_btn green customNavigation">
+		<a class="btn prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></div>
+		</li>
+			<li>
+		 <div class="product_list_btn green customNavigation">
+		<a class="btn next"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+			</li>
+		</ul>
+	  <div class="clearfix"></div>
+	</div>
+	<!-- 00000000000000FEATURED PRODUCTS產品倫波區0000000000 -->
+<div id="owl-demo02" class="owl-carousel owl-theme allproduct">
+<!-- /////////////////////////產品1~4////////////////// -->
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_05.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_06.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_07.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_08.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+<!-- /////////////////////////產品5~8////////////////// -->
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_05.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_06.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_07.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_08.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+<!-- /////////////////////////產品9~12////////////////// -->
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_05.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_06.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+		    <div class="sale_icon">sale</div>			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_07.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+		<div class="product_shop">
+			
+			<div class="product_shop_pic">
+				<img src="images/product_shop_pic_08.jpg" alt="">
+			</div>
+			<div class="product_price">
+				<span>$899.99</span>
+	    		<input class="addacrt_btn black" type="button" value="ADD TO CART">
+	    		<div class="clearfix"></div>
+			</div>
+	        <div class="product_price_info">
+	        	<h3>EOS 450D Camera</h3>
+	        	<p>Lorem ipsum dolor sit amet, conse  
+				adipiscing elit, sed diam nonu mmy  
+				mod tincidunt ut lao dolore.</p>
+	        </div>
+	        <a class="product_view" href="#">View the Product></a>		
+		</div>
+</div><!-- allproduct -->
+ 
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/miaohou/camerastore">Camerastore</a> is maintained by <a href="https://github.com/miaohou">miaohou</a>.</span>
+<!-- 000000000000000000LOGO區title/////00000000000000 -->
+    <div class="product_list">
+      <div class="product_list_line">
+      	<h3>CHECK OUR BRANDS</h3>
+      	<div class="md_list_brand dot_line"></div>
+      </div>
+	  <div class="clearfix"></div>
+	</div>
+<!-- 000000000000000000LOGO區00000000000000 -->
+	<div class="brand_icon">
+<ul>
+	<li><a href="#"><img src="images/logo_list_01.png" alt=""></a></li>
+	<li><a href="#"><img src="images/logo_list_02.png" alt=""></a></li>
+	<li><a href="#"><img src="images/logo_list_03.png" alt=""></a></li>
+	<li><a href="#"><img src="images/logo_list_04.png" alt=""></a></li>
+	<li><a href="#"><img src="images/logo_list_05.png" alt=""></a></li>
+		  <div class="clearfix"></div>
+</ul>
+	</div>	
+	</div><!-- mainwrap的	 -->
+	<div class="footer">
+	   <div class="main_wrap">
+	   <div class="follow_us box">
+		   	<img src="images/logo.png" alt="">
+		   	<h3>Follow us</h3>
+			<div class="icon_color">
+				<a href="#"><span class="fa-stack fa-lg">
+				  <i class="fa fa-square fa-stack-2x square_color"></i>
+				  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+				</span></a>
+						<a href="#"><span class="fa-stack fa-lg">
+				  <i class="fa fa-square fa-stack-2x square_color"></i>
+				  <i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+				</span></a>
+				<a href="#"><span class="fa-stack fa-lg">
+				  <i class="fa fa-square fa-stack-2x square_color"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span></a>
+				<a href="#"><span class="fa-stack fa-lg">
+				  <i class="fa fa-square fa-stack-2x square_color"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span></a>
+				<a href="#"><span class="fa-stack fa-lg">
+				  <i class="fa fa-square fa-stack-2x square_color"></i>
+				  <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+				</span></a>			
+			</div>	   	
+	   </div>
+	   <div class="recent_posts box">
+		   	<h3>Recent Posts</h3>
+		   	<ul>
+   		   		<li class="posts_first">
+			   		<img src="images/recent_01.png" alt="">
+	   		   		<h4>New Camera Set</h4>
+	   		   		posted by<span class="hightlight">Admin</span>
+   		   		</li>
+   		   		<li class="posts_first">
+   		   		    <img src="images/recent_02.png" alt="">
+	   		   		<h4>Special Camera Lenses</h4>
+	   		   		posted by<span class="hightlight">Gljivec</span>
+   		   		</li>
+		   	</ul>	   	
+	   </div>
+	   <div class="contacts box">
+		   	<h3>Contacts</h3>
+		   	<ul>
+   		   		<li>
+			   		<p>1000 Ljubljana</p>
+			   		<p>Celovska cesta 135</p>
+			   		<p>Country Slovenia</p>
+   		   		</li>
+   		   		<li>
+			   		<p>Phone: (+386) 40 123 456</p>
+			   		<p>Mobile: (+386) 40 654 123</p>
+   		   		</li>
+   		   		<li>
+			   		<p>info@premiumcoding.com </p>
+   		   		</li>
+		   	</ul>	   	
+	   </div>
+	   <div class="people_say box">
+		   	<h3>What People say</h3>
+		   	<ul>
+   		   		<li>
+					<figure>
+					    <img src="images/head_01.png" class="circle" alt="">
+					    <figcaption>ANNA</figcaption>
+					  </figure>
+					<div class="people_say_word">
+					<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer dolor orci</p>
+					</div> 		
+   		   		</li>
+   		   		<li>
+					<figure>
+					    <img src="images/head_02.png" class="circle" alt="">
+					    <figcaption>ERICA</figcaption>
+					  </figure>
+					<div class="people_say_word">
+					<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Integer dolor orci</p>
+					</div> 		
+   		   		</li>
+		   	</ul>	   	
+	   </div>
+	  <div class="clearfix"></div>
+		</div>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+	</div><!-- footer的 -->
+	<div class="bot_bar">
+		<div class="bot_bar_wrap">
+		    <div class="bot_list">
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">PORTFOLIO</a></li>
+					<li><a href="">SITEMAP</a></li>
+					<li><a href="">CONTANT</a></li>	
+				</ul>
+			</div>
+			<div class="copyright">
+				<p>CameraStore @2013 by PremiumCoding | All Rights Reserved</p>
+			</div>
+		</div>
+	</div>	
+</div>
+	
+</body>
 </html>
